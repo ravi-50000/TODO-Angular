@@ -1,0 +1,10 @@
+GET http://localhost:3000/data
+###
+
+POST http://localhost:3000/add
+Content-Type: application/json
+
+{
+    "title":"hy",
+    "description":"vs code"
+}
